@@ -36,15 +36,19 @@
     
     echo "<br> <hr>";
 
-//     function minimoYmaximo($tiempos){
+    function minimoYmaximo($tiempos){
 
         
-//         $tiempoMaximo=(max(array($tiempos)));
-//         $tiempoMinimo=(min(array($tiempos)));
-//         return array($tiempoMaximo , $tiempoMinimo);
+        $tiempoMaximo=(max(array($tiempos)));
+        $tiempoMinimo=(min(array($tiempos)));
+        return array($tiempoMaximo , $tiempoMinimo);
  
-// }
+}
 
+$max = minimoYmaximo($tiempoMaximo);
+
+
+echo "El tiempo máximo es de: " . $max;
 
 
     
