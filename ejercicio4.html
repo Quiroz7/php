@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        do{
+
+        
+        var name = prompt("Buenas teacher Quiroz. Ingresa el nombre del estudiante");
+        var notas = prompt(" ¿Cuantas notas desea ingresar ?");
+        
+        var promedio=0;
+        var suma = 0;
+        
+
+        for(i=0;i < parseInt(notas);i++){
+            let nota = prompt("Ingrese nota: ");
+            suma+=parseInt(nota);
+            
+        }
+        promedio = suma/notas;
+            
+            if(promedio > 3.5){
+                window.alert("el estudiante: " + name + " aprueba")
+            }else{
+                window.alert("El estudiante: " + name + " no aprobó");
+            }
+            var respuesta = prompt("¿Desea ingresar otra calificación?");
+            if (respuesta == "no"){
+                break;
+            }
+        }while(respuesta == "si");   
+        
+    </script>
+</body>
+</html>

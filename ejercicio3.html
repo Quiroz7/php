@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+        var menu = prompt("* opcion1 \n * opcion2 \n  * opcion3 \n * opcion4 \n");
+        
+        switch(menu){
+            case "1":
+            
+            var numero = prompt("Ingrese un número para saber su raíz cuadrada");
+            var resultado = Math.sqrt(numero);
+            alert(resultado);
+            break;
+            
+            
+            case "2":
+            
+            var numero2 = prompt("Ingrese un número para saber su exponenciación");
+            var exponente = prompt("a que exponente?");
+            var resultado = numero2**exponente;
+            alert(resultado);
+            break;
+        
+            case "3":
+            
+            var numero1 = prompt("Ingrese un texto ");
+            var numero2 = prompt("Ingrese otro texto");
+            
+                if(numero1==numero2){
+                    alert("el texto escrito fue igual"  );
+                }else{
+                    alert("No son iguales")
+                }break;
+
+            case "4":
+            
+            var texto = prompt("Ingrese el texto");
+            var resultado = texto.length;
+            alert("El número de carácteres de ese texto son  : " + resultado + "carácteres");
+            
+        }
+    
+            
+
+
+        
+        
+
+
+
+
+
+
+
+
+    </script>
+    
+</body>
+</html>
