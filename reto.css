@@ -1,0 +1,26 @@
+*{
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    background: #7d7de096;
+}
+
+placeholder{
+    color: #000000;
+}
+p {
+    border: 2px solid #000000;
+}
+
+div{
+    background: #0808a391;
+    color: aqua;
+    font-size: 18px;
+}
+
+table tbody tr:nth-child(odd){
+    background:#e7e9e7b9;
+}table tbody tr:nth-child(even){
+    background:#ddc1c18e;
+}
